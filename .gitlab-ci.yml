@@ -3,6 +3,6 @@ firebase:
  before_script:
  - echo -n $GOOGLE_APPLICATION_CREDENTIALS_BASE64 | base64 -d > private-key.json
  - export GOOGLE_APPLICATION_CREDENTIALS="private-key.json"
- - nodejs -v
+ - npm run build
  script:
  - firebase deploy
