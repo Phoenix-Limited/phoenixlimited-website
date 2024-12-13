@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Here, you kind find all the data you'll need to know about Phoeni and it's services
+        Here, you kind find all the data you'll need to know about Phoenix and it's services
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        We try to write clear and concise instructions. If something is unclear, clickt the edit this page button and submit a PR for a suggestion.
+        We try to write clear and concise instructions. If something is unclear, click the edit this page button and submit a PR for a suggestion.
       </>
     ),
   },
