@@ -1,0 +1,22 @@
+{
+  "id": "intro",
+  "title": "Welcome to the wiki!",
+  "description": "Here you can find all kinds of guides or other informational tidbits about how to use Phoenix Limited services",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/-/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Welcome!"
+  },
+  "sidebar": "introSidebar",
+  "next": {
+    "title": "MacBook & iMac MDM Bypass",
+    "permalink": "/docs/mdm"
+  }
+}

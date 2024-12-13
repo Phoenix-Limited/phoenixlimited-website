@@ -1,0 +1,28 @@
+{
+  "id": "server/intro",
+  "title": "What you can expect to find here",
+  "description": "",
+  "source": "@site/docs/server/intro.md",
+  "sourceDirName": "server",
+  "slug": "/server/intro",
+  "permalink": "/docs/server/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/src/branch/main/docs/server/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "What you can find here",
+    "sidebar_position": 2
+  },
+  "sidebar": "serverSidebar",
+  "previous": {
+    "title": "General Login Method",
+    "permalink": "/docs/server/login"
+  },
+  "next": {
+    "title": "Jellyfin Media Server",
+    "permalink": "/docs/server/Media Server and Requests/jellyfin"
+  }
+}

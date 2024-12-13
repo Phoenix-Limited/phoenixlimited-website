@@ -1,0 +1,20 @@
+{
+  "id": "welcome",
+  "title": "Hello",
+  "description": "Welcome to the wiki for Phoenix Limited!",
+  "source": "@site/docs/welcome.md",
+  "sourceDirName": ".",
+  "slug": "/welcome",
+  "permalink": "/docs/welcome",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/docs/welcome.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Hi!",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar"
+}

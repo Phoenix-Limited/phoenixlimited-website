@@ -1,0 +1,70 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "games/intro",
+              "path": "/docs/games/intro",
+              "sidebar": "gameSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "introSidebar"
+            },
+            {
+              "id": "mdm",
+              "path": "/docs/mdm",
+              "sidebar": "introSidebar"
+            },
+            {
+              "id": "server/login",
+              "path": "/docs/server/login",
+              "sidebar": "serverSidebar"
+            },
+            {
+              "id": "server/Media Server and Requests/jellyfin",
+              "path": "/docs/server/Media Server and Requests/jellyfin",
+              "sidebar": "serverSidebar"
+            },
+            {
+              "id": "server/Media Server and Requests/jellyseerr",
+              "path": "/docs/server/Media Server and Requests/jellyseerr",
+              "sidebar": "serverSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "introSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            },
+            "gameSidebar": {
+              "link": {
+                "path": "/docs/games/intro",
+                "label": "Game Information"
+              }
+            },
+            "serverSidebar": {
+              "link": {
+                "path": "/docs/server/login",
+                "label": "General Login Method"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

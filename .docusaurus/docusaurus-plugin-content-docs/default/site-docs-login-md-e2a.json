@@ -1,0 +1,26 @@
+{
+  "id": "login",
+  "title": "How to log in to most of all of Phoenix Limited's services",
+  "description": "",
+  "source": "@site/docs/login.md",
+  "sourceDirName": ".",
+  "slug": "/login",
+  "permalink": "/docs/login",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/src/branch/main/docs/login.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "General Login Method"
+  },
+  "sidebar": "serverSidebar",
+  "previous": {
+    "title": "Welcome!",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Jellyfin Media Server",
+    "permalink": "/docs/media/jellyfin"
+  }
+}

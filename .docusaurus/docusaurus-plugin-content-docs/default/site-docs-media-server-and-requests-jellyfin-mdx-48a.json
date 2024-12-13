@@ -1,0 +1,24 @@
+{
+  "id": "Media Server and Requests/jellyfin",
+  "title": "Logging into Jellyfin",
+  "description": "Choose the system that you're trying to log into below",
+  "source": "@site/docs/Media Server and Requests/jellyfin.mdx",
+  "sourceDirName": "Media Server and Requests",
+  "slug": "/Media Server and Requests/jellyfin",
+  "permalink": "/docs/Media Server and Requests/jellyfin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/src/branch/master/docs/Media Server and Requests/jellyfin.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "Jellyfin Media Server",
+    "sidebar_position": 3
+  },
+  "sidebar": "serverSidebar",
+  "previous": {
+    "title": "General Login Method",
+    "permalink": "/docs/login"
+  }
+}

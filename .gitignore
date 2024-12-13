@@ -1,13 +1,3 @@
-
-node_modules
-static
-src
 .obsidian
-.docusaurus
 .firebase
-.firebaserc
-docusaurus.config.js
-firebase.json
-package.json
-package-lock.json
-sidebars.js
+
