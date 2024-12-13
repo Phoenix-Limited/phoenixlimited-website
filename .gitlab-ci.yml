@@ -4,6 +4,9 @@ firebase:
  - echo -n $GOOGLE_APPLICATION_CREDENTIALS_BASE64 | base64 -d > private-key.json
  - export GOOGLE_APPLICATION_CREDENTIALS="private-key.json"
  - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+ - export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
  - ~/.nvm/nvm install 18
  - ~/.nvm/nvm use 18
  - nodejs -v
