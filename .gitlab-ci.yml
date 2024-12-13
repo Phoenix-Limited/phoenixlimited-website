@@ -3,6 +3,7 @@ firebase:
  before_script:
  - echo -n $GOOGLE_APPLICATION_CREDENTIALS_BASE64 | base64 -d > private-key.json
  - export GOOGLE_APPLICATION_CREDENTIALS="private-key.json"
+ - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
  - nvm install 18
  - nvm use 18
  - nodejs -v
