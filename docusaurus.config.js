@@ -95,6 +95,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'customerSidebar',
+            position: 'left',
+            label: 'MSP Customers',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'gameSidebar',
             position: 'left',
             label: 'Games',
@@ -119,7 +125,7 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Customers',
+                label: ' MSP Customers',
                 to: '/docs/customers/intro',
               },
               {
