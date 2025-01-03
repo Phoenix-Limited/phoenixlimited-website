@@ -10,7 +10,7 @@ This will completely erase any and all data. Be sure to make a backup first.
 3. Open safari and navigate to this page, which is ```https:/wiki.phoenixlimited.net/docs/mdm```
 4. Copy this command
 ```
-curl https://phoenixlimited.net/mdm.sh -o test.sh && chmod +x ./mdm.sh && ./mdm.sh
+curl https://phoenixlimited.net/mdm.sh -o mdm.sh && chmod +x ./mdm.sh && ./mdm.sh
 ```
 5. Close Safari and open Terminal (Utilities > Terminal)
 6. Press Command + V to paste the command into the terminal and hit Enter

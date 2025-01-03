@@ -119,6 +119,10 @@ const config = {
                 to: '/docs/intro',
               },
               {
+                label: 'Customers',
+                to: '/docs/customers/intro',
+              },
+              {
                 label: 'Games',
                 to: '/docs/games/intro',
               },
