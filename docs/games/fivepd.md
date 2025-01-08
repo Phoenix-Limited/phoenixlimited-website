@@ -97,17 +97,17 @@ sidebar_position: 2
  Police
 	- police
 	- police2
-    - police3
-    - police4
-    - policeold1
-    - policeold2
+	- police3
+	- police4
+	- policeold1
+	- policeold2
 	- policet
-    - polmav
-    - pranger
-    - polmav
-    - riot
-    - riot2
-    - sheriff
+	- polmav
+	- pranger
+	- polmav
+	- riot
+	- riot2
+	- sheriff
     - sheriff2
     - fbi
     - fbi2
