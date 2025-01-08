@@ -95,120 +95,120 @@ sidebar_position: 2
 ## Spawnable Vehicles
 ```
  Police
-	police
-    police2
-    police3
-    police4
-    policeold1
-    policeold2
-    policet
-    polmav
-    pranger
-    polmav
-    riot
-    riot2
-    sheriff
-    sheriff2
-    fbi
-    fbi2
-    hp2
-    hp3
-    hp4
-    HPSL2
-    HPSL3
-    HPSL4
-    chap
-    fordp
-    fordp3
-    hoep
-    hoep2
-	pdcharger
-	pdcvpi
-	pdfpiu
-	pdimpala
-	18charger
-	18stealth
-	hptahoe
-	sahpmoto
-	socharger
-	soexplorer
-	sotaurus
-	sotruck
-	sscvpi
-	ssexplorer
-	police_sf90
-	cadillacbb
-	cadillacrb
-	chevyssbb
-	chevyssrb
-	expeditionbb
-	expeditionrb
-	f150bb
-	f150rb
-	taurusbb
-	taurusrb
-	2018tahoe
-	2018tahoes
-	2016explorer
-	2016explorers
-	2015explorer
-	2015explorers
-	2018charger
-	2018chargers
-	2010charger
-	2010chargers
-	2008cvpi
-	2011cvpi
-	2011cvpis
-	2020explorer
-	2020explorers
-	08pdcvpi
-	11pdcvpi
-	14pdcharger
-	15pdfpiu
-	15pdfpis
-	16pdfpiu
-	11pdcvpis
-	15pdfpiss
-	15pdfpius
-	sbearcat
-	mcu
-	20pdfpiu
-	20pdfpius
-	00pdtahoe
-	250
-	250st
-	2016taurusbb
-	2016taurusrb
-	18chgr
+	- police
+    - police2
+    - police3
+    - police4
+    - policeold1
+    - policeold2
+    - policet
+    - polmav
+    - pranger
+    - polmav
+    - riot
+    - riot2
+    - sheriff
+    - sheriff2
+    - fbi
+    - fbi2
+    - hp2
+    - hp3
+    - hp4
+    - HPSL2
+    - HPSL3
+    - HPSL4
+    - chap
+    - fordp
+    - fordp3
+    - hoep
+    - hoep2
+	- pdcharger
+	- pdcvpi
+	- pdfpiu
+	- pdimpala
+	- 18charger
+	- 18stealth
+	- hptahoe
+	- sahpmoto
+	- socharger
+	- soexplorer
+	- sotaurus
+	- sotruck
+	- sscvpi
+	- ssexplorer
+	- police_sf90
+	- cadillacbb
+	- cadillacrb
+	- chevyssbb
+	- chevyssrb
+	- expeditionbb
+	- expeditionrb
+	- f150bb
+	- f150rb
+	- taurusbb
+	- taurusrb
+	- 2018tahoe
+	- 2018tahoes
+	- 2016explorer
+	- 2016explorers
+	- 2015explorer
+	- 2015explorers
+	- 2018charger
+	- 2018chargers
+	- 2010charger
+	- 2010chargers
+	- 2008cvpi
+	- 2011cvpi
+	- 2011cvpis
+	- 2020explorer
+	- 2020explorers
+	- 08pdcvpi
+	- 11pdcvpi
+	- 14pdcharger
+	- 15pdfpiu
+	- 15pdfpis
+	- 16pdfpiu
+	- 11pdcvpis
+	- 15pdfpiss
+	- 15pdfpius
+	- sbearcat
+	- mcu
+	- 20pdfpiu
+	- 20pdfpius
+	- 00pdtahoe
+	- 250
+	- 250st
+	- 2016taurusbb
+	- 2016taurusrb
+	- 18chgr
 
 Tow Trucks
-	17silv
-	TOW
-	fdwrecker
+	- 17silv
+	- TOW
+	- fdwrecker
 	
 Civilian
-	r820
-	sian
-	gemera
-	17r35
-	velociraptor
-	audsq517
-	19raptor
-	wildtrak
-	bolide
-	rs615
-	rs6+
-	huayrar
-	q820
-	lamtmc
-	bugatti
-	aventador
-	cookiezr1
-	elisegt1
-	chiron
-	elva
-	taycan
+	- r820
+	- sian
+	- gemera
+	- 17r35
+	- velociraptor
+	- audsq517
+	- 19raptor
+	- wildtrak
+	- bolide
+	- rs615
+	- rs6+
+	- huayrar
+	- q820
+	- lamtmc
+	- bugatti
+	- aventador
+	- cookiezr1
+	- elisegt1
+	- chiron
+	- elva
+	- taycan
 ```
 	
 ## Codes and Signals
