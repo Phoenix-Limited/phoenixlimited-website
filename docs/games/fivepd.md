@@ -3,9 +3,10 @@ sidebar_label: 'GTA/FiveM FivePD Controls'
 sidebar_position: 2
 ---
 
-Phoenix FivePD Controls for Keyboard
-General
-~~~~~~~~~~~~~~~~~~~~~~~~
+# Phoenix FivePD Keyboard Controls
+
+## General
+```
 	Map: P
 	Chat: T
 	Admin NOCLIP: F2
@@ -23,14 +24,17 @@ General
 	Hide behind something (on-foot): Q
 	Jump (on-foot): Space
 	Aim/Fire: Left/Right Mouse
+```
 	
-vMenu
-~~~~~~~~~~~~~~~~~~~~~~~~
+## vMenu
+```
+
 	m: Menu
 	 controller: interation menu binding
+```
 	
-Lights	
-~~~~~~~~~~~~~~~~~~~~~~~~
+## Lights	
+```
 	Right indicator: =
 	Left indicator: -
 	Hazard lights: Backspace
@@ -44,9 +48,10 @@ Lights
     Num2: TA (Traffic Advisor) CENTER Patern (In to Out)
 	Num3: TA (Traffic Advisor) LEFT Patern (Driver To Passenger)
 	Num4: Scene Light Toggle
+```
 	
-FivePD
-~~~~~~~~~~~~~~~~~~~~~~~~
+## FivePD
+```
 	Duty Menu: F11
 	Backup/Callout Accept: Y
 	(Vehicle-Specific)MDT Computer: B
@@ -63,9 +68,10 @@ FivePD
 	(Vehicle-Specific)Traffic Stop Vehicle Positioning: X (Arrow keys move marker)
 	(Vehicle-Specific)Cruise Control Toggle (MUST BE ON IN DUTY MENU TO WORK): Left Control (Sets current speed NUM+ and NUM- to adjust
 	(Vehicle-Specific)Spike Strip: At the trunk of a vehicle Press Left Shift and E
+```
 	
-Wraith Radar ARS2X
-~~~~~~~~~~~~~~~~~~~~~~~~
+## Wraith Radar ARS2X
+```
 	Open Remote: F5 (Toggle Display to show radar, then press PWR to turn the radar, click the two XMT(ones with arrows in the center of the remote)
 			buttons to turn on/off the antennas you want, set the mode of the antennas with the buttons to the left or right of the XMT buttons, toggle
 			the plate reader on by clicking Plate Reader, toggle display, then Escape to hide remote)
@@ -75,17 +81,19 @@ Wraith Radar ARS2X
 	Lock/unlock front plate: NUM9
 	Lock/unlock rear plate: NUM6
 	Block all keybinds: L
-	
-Commands
-~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
+## Commands
+```
 	Revive(after death): /revive (15 Second cooldown)
 	Respawn(after death): /respawn
 	Delete the closest vehicle to you or the one you’re sitting in: /fdv
 	Delete the closest ped to you: /fdp
 	Delete the closest FivePDobject to you: /fdo
+```
 	
-Spawnable Vehicles
-~~~~~~~~~~~~~~~~~~~~~~~~
+## Spawnable Vehicles
+```
  Police
 	police
     police2
@@ -201,9 +209,10 @@ Civilian
 	chiron
 	elva
 	taycan
+```
 	
-Codes and Signals
-~~~~~~~~~~~~~~~~~~~~~~~~
+## Codes and Signals
+```
 SIGNALS
 ------------------------
 	Signal 1 - Dispatch Available
@@ -361,3 +370,4 @@ CODES
 	11-10 - Critical Trauma
 	11-11 - Person Deceased
 ------------------------
+```
