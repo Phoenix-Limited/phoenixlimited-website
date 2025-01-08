@@ -45,7 +45,7 @@ sidebar_position: 2
 	Change siren tone: Hold E+R
 	Auxiliary siren: Left Alt
 	Num1: TA (Traffic Advisor) LEFT Patern (Passenger To Driver)
-    Num2: TA (Traffic Advisor) CENTER Patern (In to Out)
+	Num2: TA (Traffic Advisor) CENTER Patern (In to Out)
 	Num3: TA (Traffic Advisor) LEFT Patern (Driver To Passenger)
 	Num4: Scene Light Toggle
 ```
