@@ -14,6 +14,15 @@ const config = {
   tagline: 'Pioneering Technology',
   favicon: 'img/favicon.ico',
 
+  scripts: [
+    {
+      src: "https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js"
+    },
+    {
+      src: "https://phoenixlimited.net/assets/js/zammad.js"
+    },
+  ],
+
   // Set the production url of your site here
   url: 'https://wiki.phoenixlimited.net',
   // Set the /<baseUrl>/ pathname under which your site is served
