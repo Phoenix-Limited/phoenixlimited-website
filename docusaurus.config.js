@@ -36,6 +36,17 @@ const config = {
     locales: ['en'],
   },
 
+  scripts: [
+    {
+      src: 'https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js',
+      async: true,
+    },
+    {
+      src: 'https://phoenixlimited.net/assets/js/zammad.js',
+      async: true,
+    },
+  ],
+
   presets: [
     [
       'classic',
