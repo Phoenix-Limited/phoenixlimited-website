@@ -39,10 +39,10 @@ const config = {
   scripts: [
     {
       src: 'https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js',
-      defer: true,
     },
     {
       src: 'https://phoenixlimited.net/assets/js/zammad.js',
+      async: true,
     },
   ],
 
