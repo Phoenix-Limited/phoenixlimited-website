@@ -37,10 +37,10 @@ const config = {
   },
 
   scripts: [
-    {
-      src: 'https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js',
-      async: true,
-    },
+    //{
+    //  src: 'https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js',
+    //  async: true,
+    //},
     {
       src: 'https://phoenixlimited.net/assets/js/zammad.js',
     },
