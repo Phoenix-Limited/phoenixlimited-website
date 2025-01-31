@@ -5,14 +5,7 @@ export default function FooterWrapper(props) {
     return (
         <>
             <script src="https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js"></script>
-            <script>
-                (function() {
-                new ZammadChat({
-                    fontSize: '12px',
-                    chatId: 1
-                });
-            })();
-            </script>
+            <script src="https://phoenixlimited.net/assets/js/zammad.js"></script>
             <Footer {...props} />
         </>
     );
