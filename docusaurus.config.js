@@ -187,8 +187,4 @@ const config = {
     }),
 };
 
-module.exports = {
-    scripts: [{src: 'https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js'},{src: 'https://phoenixlimited.net/assets/js/zammad.js'}],
-  };
-
 export default config;
