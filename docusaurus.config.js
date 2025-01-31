@@ -42,7 +42,7 @@ const config = {
     },
     {
       src: 'https://phoenixlimited.net/assets/js/zammad.js',
-      async: true,
+      defer: true,
     },
   ],
 
