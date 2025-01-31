@@ -8,10 +8,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-module.exports = {
-    scripts: [{src: 'https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js'},{src: 'https://phoenixlimited.net/assets/js/zammad.js'}],
-  };
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Phoenix Limited',
@@ -190,5 +186,9 @@ const config = {
       },
     }),
 };
+
+module.exports = {
+    scripts: [{src: 'https://support.phoenixlimited.net/assets/chat/chat-no-jquery.min.js'},{src: 'https://phoenixlimited.net/assets/js/zammad.js'}],
+  };
 
 export default config;
