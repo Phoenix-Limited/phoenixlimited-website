@@ -22,11 +22,11 @@ function HomepageHeader() {
             to="/docs/intro">
             Start Here!
           </Link>
-            <Link
-                className="button button--secondary button--lg"
-                to="/docs/games/intro">
-                Start Here Games!
-            </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="mailto:contact@phoenixlimited.net">
+              Email Us
+          </Link>
         </div>
       </div>
     </header>
