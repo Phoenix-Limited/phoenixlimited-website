@@ -22,13 +22,10 @@ function HomepageHeader() {
             to="/docs/intro">
             Start Here!
           </Link>
-        </div>
-        <br />
-        <div className={styles.buttons}>
             <Link
                 className="button button--secondary button--lg"
-                to="mailto:contact@phoenixlimited.net">
-                Email Us
+                to="/docs/games/intro">
+                Start Here Games!
             </Link>
         </div>
       </div>
