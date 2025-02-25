@@ -23,13 +23,14 @@ function HomepageHeader() {
             Start Here!
           </Link>
         </div>
-          <div className={styles.buttons}>
-              <Link
-                  className="button button--secondary button--lg"
-                  to="mailto:contact@phoenixlimited.net">
-                  Email Us
-              </Link>
-          </div>
+        <br />
+        <div className={styles.buttons}>
+            <Link
+                className="button button--secondary button--lg"
+                to="mailto:contact@phoenixlimited.net">
+                Email Us
+            </Link>
+        </div>
       </div>
     </header>
   );
