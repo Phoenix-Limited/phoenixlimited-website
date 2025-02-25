@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/logo.svg').default,
+    title: 'Fixed Cost or À la carte',
+    Svg: require('@site/static/img/fixed-costs.svg').default,
     description: (
       <>
-        Here, you kind find all the data you'll need to know about Phoenix and it's services
+          Whether you need one service call for a specific issue or full IoT management, we can dynamically generate the best package for you.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/logo.svg').default,
+    title: 'Fast Response',
+    Svg: require('@site/static/img/fast-response.svg').default,
     description: (
       <>
-        We try to write clear and concise instructions. If something is unclear, click the edit this page button and submit a PR for a suggestion.
+          We guarantee a same day response to new tickets and calls within reasonable hours
       </>
     ),
   },
   {
-    title: 'Powered by Phoenix Limited',
-    Svg: require('@site/static/img/logo.svg').default,
+    title: 'What you can you expect from Phoenix Limited',
+    Svg: require('@site/static/img/expect.svg').default,
     description: (
       <>
-        Vist us at the main website to see our services
+          You can expect same-day response and regularly same day fixes for many IoT issues, including ones related to networking, apps, services, and management.
       </>
     ),
   },

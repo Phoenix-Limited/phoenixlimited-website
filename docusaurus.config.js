@@ -74,7 +74,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo.webp',
+      image: 'img/logo.svg',
       docs: {
         sidebar: {
           hideable:true,
@@ -84,7 +84,7 @@ const config = {
         title: 'Phoenix Limited',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.webp',
+          src: 'img/logo.svg',
         },
         items: [
           {
