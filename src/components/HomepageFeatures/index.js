@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Fixed Cost or À la carte',
-    image: 'img/fixed-costs.webp',
+    Svg: require('@site/static/img/fixed-costs.svg').default,
     description: (
       <>
           Whether you need one service call for a specific issue or full IoT management, we can dynamically generate the best package for you.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Fast Response',
-    image: 'img/fast-response.webp',
+    Svg: require('@site/static/img/fast-response.svg').default,
     description: (
       <>
           We guarantee a same day response to new tickets and calls within reasonable hours
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'What you can you expect from Phoenix Limited',
-    image: 'img/expect.webp',
+    Svg: require('@site/static/img/expect.svg').default,
     description: (
       <>
           You can expect same-day response and regularly same day fixes for many IoT issues, including ones related to networking, apps, services, and management.
