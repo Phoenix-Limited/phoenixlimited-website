@@ -2,14 +2,6 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-export default function Section1() {
-    return (
-        <div>
-            <h1>What we do</h1>
-        </div>
-    );
-}
-
 const FeatureList = [
   {
     title: 'Fixed Cost or À la carte',
