@@ -46,10 +46,11 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
-        <div>
-          <h1>What we do</h1>
+        <div className="center">
+          <h2>What we do</h2>
         </div>
+        <HomepageFeatures />
+
       </main>
     </Layout>
   );
