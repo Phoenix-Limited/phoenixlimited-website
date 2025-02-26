@@ -10,7 +10,7 @@ const FeatureList = [
     title: 'RMM & Hardened Security',
     description: (
       <>
-          We provide full management and security to all of your laptops, desktops, servers, and mobile devices.
+          1
       </>
     ),
   },
@@ -19,7 +19,7 @@ const FeatureList = [
     title: 'DR & Risk Management',
     description: (
       <>
-          With automated backups and services like EDR/MDR, we can ensure your network is rock solid.
+          2
       </>
     ),
   },
@@ -28,7 +28,7 @@ const FeatureList = [
     title: 'Cloud Workplaces',
     description: (
       <>
-          Domain and user management through either Google Workspace, M365, or NextCloud.
+          3
       </>
     ),
   },
@@ -38,7 +38,7 @@ const FeatureList = [
     title: 'Email and Website Services',
     description: (
       <>
-          We can provide full mail servers, and program and host web servers.
+          4
       </>
     ),
   },
@@ -47,7 +47,7 @@ const FeatureList = [
     title: 'A/V & Digital Signage',
     description: (
       <>
-          Installation and management of digital signage, displays and speaker systems.
+          5
       </>
     ),
   },
@@ -56,7 +56,7 @@ const FeatureList = [
     title: 'Fast Ticketing',
     description: (
       <>
-          Expedient ticket submissions and responses.
+          6
       </>
     ),
   },
@@ -66,7 +66,7 @@ const FeatureList = [
     title: 'Security Systems',
     description: (
       <>
-          Fully managed Alarm/Camera systems with remote view capabilities.
+          7
       </>
     ),
   },
@@ -75,7 +75,7 @@ const FeatureList = [
     title: 'VOIP/Phone Solutions',
     description: (
       <>
-          Fully managed phone/video/teleconference solutions to fit your needs.
+          8
       </>
     ),
   },
@@ -84,7 +84,7 @@ const FeatureList = [
     title: 'Server Deployments',
     description: (
       <>
-          New or existing server management and monitoring.
+          9
       </>
     ),
   },
