@@ -179,7 +179,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} {siteConfig.title} · {siteConfig.tagline}`,
+        copyright: `Copyright © ${new Date().getFullYear()} Phoenix Limited · Pioneering Technology`,
       },
       prism: {
         theme: prismThemes.github,
