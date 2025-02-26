@@ -61,7 +61,12 @@ export default function Home() {
           </div>
         </div>
         <HomepageFeatures />
-
+        <div>
+          <br />
+          <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Service Overview</h2>
+          <p className={clsx(styles.alignCenter)}>An example selection of services we can provide to better your business and save you time</p>
+          <br />
+        </div>
       </main>
     </Layout>
   );
