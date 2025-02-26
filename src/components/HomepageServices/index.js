@@ -44,7 +44,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faHeadphones} />,
-    title: 'A/V Solutions & Digital Signage',
+    title: 'A/V & Digital Signage',
     description: (
       <>
           Installation and management of digital signage, displays and speaker systems.
@@ -75,7 +75,7 @@ const FeatureList = [
     title: 'VOIP/Phone Solutions',
     description: (
       <>
-          Fully managed and integrated phone/video/teleconference solutions to fit your needs.
+          Fully managed phone/video/teleconference solutions to fit your needs.
       </>
     ),
   },
