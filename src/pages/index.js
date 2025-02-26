@@ -58,6 +58,7 @@ export default function Home() {
             <FontAwesomeIcon icon={fas.faCloud} size="6x" />
             <FontAwesomeIcon icon={fas.faCode} size="6x" />
           </div>
+          <br />
           <p className={clsx(styles.alignCenter)}>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
         </div>
         <HomepageFeatures />
