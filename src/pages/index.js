@@ -74,9 +74,12 @@ export default function Home() {
         <br />
         <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Questions?</h2>
         <p className={clsx(styles.alignCenter)}>Take a look how we can benefit your business.</p>
-        <div>
-          <iframe src={pdf} width="100%" height="500px" />
-        </div>
+        <ul>
+          <details>
+            <summary>Managed IT</summary>
+            <iframe src={pdf} width="100%" height="500px" />
+          </details>
+        </ul>
       </main>
     </Layout>
   );
