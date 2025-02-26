@@ -21,7 +21,6 @@ const FeatureList = [
       </>
     ),
   },
-    <br/>,
   {
     title: 'Google Workspace / M365 / Nextcloud',
     Svg: require('@site/static/img/fixed-costs.svg').default,
