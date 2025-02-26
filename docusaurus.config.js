@@ -112,6 +112,25 @@ const config = {
             label: 'Server',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'dropdown',
+            position: 'right',
+            label: 'Services',
+            items: [
+              {
+                label: 'SSO Portal',
+                href: 'https://auth.phoenixlimited.net',
+              },
+              {
+                label: 'Media Server',
+                href: 'https://media.phoenixlimited.net',
+              },
+              {
+                label: 'Media Requests',
+                href: 'https://request.phoenixlimited.net',
+              },
+            ],
+          },
         ],
       },
       footer: {
@@ -149,24 +168,6 @@ const config = {
                 label: 'Discord',
                 href: 'https://discord.gg/q2GqwHsQeX',
               },
-            ],
-          },
-          {
-            title: 'Phoenix Limited Services',
-            items: [
-              {
-                label: 'SSO Portal',
-                href: 'https://auth.phoenixlimited.net',
-              },
-              {
-                label: 'Jellyfin',
-                href: 'https://media.phoenixlimited.net',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'Blog',
                 to: '/blog',
@@ -178,7 +179,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Phoenix Limited`,
+        copyright: `Copyright © ${new Date().getFullYear()} {siteConfig.title} · {siteConfig.tagline}`,
       },
       prism: {
         theme: prismThemes.github,
