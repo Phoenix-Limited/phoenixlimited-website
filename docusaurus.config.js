@@ -183,11 +183,11 @@ const config = {
             items: [
               {
                 label: 'Terms of Service',
-                href: 'tos',
+                href: '/tos',
               },
               {
                 label: 'Privacy Policy',
-                href: 'privacy',
+                href: '/privacy',
               },
               {
                 label: 'Blog',
