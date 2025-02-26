@@ -4,7 +4,7 @@ import Footer from '@theme-original/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {fas} from '@fortawesome/free-solid-svg-icons'
 
-import zammad from '@site/components/zammad.js';
+import zammad from '@site/src/components/zammad.js';
 
 export default function FooterWrapper(props) {
     return (

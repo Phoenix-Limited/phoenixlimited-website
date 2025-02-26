@@ -11,7 +11,7 @@ import styles from './index.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {fas} from '@fortawesome/free-solid-svg-icons'
 
-import zammadform from '@site/components/zammadform.js';
+import zammadform from '@site/src/components/zammadform.js';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
