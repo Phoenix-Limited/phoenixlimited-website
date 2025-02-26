@@ -22,7 +22,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'What you can you expect from Phoenix Limited',
+    title: 'What you can you expect from Us',
     Svg: require('@site/static/img/expect.svg').default,
     description: (
       <>

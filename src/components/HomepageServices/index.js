@@ -7,7 +7,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const FeatureList = [
   {
     icon: <FontAwesomeIcon icon={fas.faDesktop} />,
-    title: 'RMM & Hardened Security',
+    title: '1',
     description: (
       <>
           1
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faExclamationTriangle} />,
-    title: 'DR & Risk Management',
+    title: '2',
     description: (
       <>
           2
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faCloud} />,
-    title: 'Cloud Workplaces',
+    title: '3',
     description: (
       <>
           3
@@ -35,7 +35,7 @@ const FeatureList = [
   <br />,
   {
     icon: <FontAwesomeIcon icon={fas.faDesktop}/>,
-    title: 'Email and Website Services',
+    title: '4',
     description: (
       <>
           4
@@ -44,7 +44,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faHeadphones} />,
-    title: 'A/V & Digital Signage',
+    title: '5',
     description: (
       <>
           5
@@ -53,7 +53,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faScrewdriver} />,
-    title: 'Fast Ticketing',
+    title: '6',
     description: (
       <>
           6
@@ -63,7 +63,7 @@ const FeatureList = [
   <br />,
   {
     icon: <FontAwesomeIcon icon={fas.faCamera} />,
-    title: 'Security Systems',
+    title: '7',
     description: (
       <>
           7
@@ -72,7 +72,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faPhone} />,
-    title: 'VOIP/Phone Solutions',
+    title: '8',
     description: (
       <>
           8
@@ -81,7 +81,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faServer} />,
-    title: 'Server Deployments',
+    title: '9',
     description: (
       <>
           9
