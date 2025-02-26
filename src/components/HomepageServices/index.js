@@ -19,6 +19,7 @@ const FeatureList = [
       </>
     ),
   },
+    <br/>,
   {
     title: 'What you can you expect from Phoenix Limited',
     description: (
