@@ -3,7 +3,8 @@ import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 <p className="title">What we do</p>
-<p>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
+<p>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring,
+    networking, structured cabling, and security solutions, among many other things.</p>
 
 const FeatureList = [
   {
