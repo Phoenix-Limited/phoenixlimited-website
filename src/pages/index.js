@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageServices from '@site/src/components/HomepageServices';
+import pdf from '@site/static/tos.pdf';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -74,7 +75,7 @@ export default function Home() {
         <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Questions?</h2>
         <p className={clsx(styles.alignCenter)}>Take a look how we can benefit your business.</p>
         <div>
-          <iframe src="../../static/tos.pdf" width="100%" height="500px" />
+          <iframe src={pdf} width="100%" height="500px" />
         </div>
       </main>
     </Layout>
