@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '@theme-original/Footer';
 
-import zammad from './zammad.js';
+import zammad from './zammad';
 
 export default function FooterWrapper(props) {
     return (
