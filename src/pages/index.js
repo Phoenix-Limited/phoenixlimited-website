@@ -7,13 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
-import ReactDOM from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons'
-
-const element = <FontAwesomeIcon icon={byPrefixAndName.fas['house']} />
-
-ReactDOM.render(element, document.body)
+import {fas} from '@fortawesome/free-solid-svg-icons'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -45,7 +40,6 @@ function HomepageHeader() {
     </header>
   );
 }
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -66,4 +60,5 @@ export default function Home() {
       </main>
     </Layout>
   );
+
 }
