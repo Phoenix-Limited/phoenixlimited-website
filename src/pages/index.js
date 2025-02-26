@@ -70,6 +70,12 @@ export default function Home() {
           <br />
         </div>
         <HomepageServices />
+        <br />
+        <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Questions?</h2>
+        <p className={clsx(styles.alignCenter)}>Take a look how we can benefit your business.</p>
+        <div>
+          <iframe src="../../static/tos.pdf" width="100%" height="500px" />
+        </div>
       </main>
     </Layout>
   );
