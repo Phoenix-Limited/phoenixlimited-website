@@ -11,6 +11,8 @@ import styles from './index.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {fas} from '@fortawesome/free-solid-svg-icons'
 
+import zammadform from '@site/components/zammadform.js';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -81,6 +83,12 @@ export default function Home() {
           </Link>
 
         </div>
+        <br />
+        <button id="zammad-feedback-form">Feedback</button>
+
+        <script id="zammad_form_script" src="https://support.phoenixlimited.net/assets/form/form.js"></script>
+
+        <script src={zammadform}></script>
       </main>
     </Layout>
   );
