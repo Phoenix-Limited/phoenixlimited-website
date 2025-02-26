@@ -101,7 +101,7 @@ export default function Home() {
             Mac Management
           </Link>
         </div>
-        <div>
+        <div className={styles.buttons}>
           <Link
               className="button button--secondary button--lg"
               to="/docs/customers/Learning/managedit">
@@ -129,7 +129,7 @@ export default function Home() {
           </Link>
         </div>
         <br />
-        <button id="zammad-feedback-form" className={clsx(styles.alignCenter)}>Feedback</button>
+        <button id="zammad-feedback-form" className={styles.buttons}>Feedback</button>
         <br />
         <script id="zammad_form_script" src="https://support.phoenixlimited.net/assets/form/form.js"></script>
         <script src="https://wiki.phoenixlimited.net/zammadform.js"></script>
