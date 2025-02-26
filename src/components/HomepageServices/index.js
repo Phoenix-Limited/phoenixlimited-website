@@ -32,7 +32,6 @@ const FeatureList = [
       </>
     ),
   },
-  <br />,
   {
     icon: <FontAwesomeIcon icon={fas.faDesktop}/>,
     title: '4',
@@ -60,7 +59,6 @@ const FeatureList = [
       </>
     ),
   },
-  <br />,
   {
     icon: <FontAwesomeIcon icon={fas.faCamera} />,
     title: '7',
