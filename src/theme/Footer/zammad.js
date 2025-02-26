@@ -1,9 +1,8 @@
 <script>
-(function() {
-  new ZammadChat({
-    fontSize: '12px',
-    chatId: 1,
-    show: false
-  });
+    (function() {
+    new ZammadChat({
+        fontSize: '12px',
+        chatId: 1
+    });
 })();
 </script>
