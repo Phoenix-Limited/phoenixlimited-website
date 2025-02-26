@@ -10,6 +10,7 @@ import styles from './index.module.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {fas} from '@fortawesome/free-solid-svg-icons'
+import React from "react";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -76,12 +77,62 @@ export default function Home() {
         <div className={styles.buttons}>
           <Link
               className="button button--secondary button--lg"
+              to="/docs/customers/Learning/alacarte">
+            A la Carte Services
+          </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/edr">
+            EDR
+          </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/fixedcostscalability">
+            Cost and Scalability
+          </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/itcompliance">
+            IT Compliance
+          </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/macmanagement">
+            Mac Management
+          </Link>
+          <br />
+          <Link
+              className="button button--secondary button--lg"
               to="/docs/customers/Learning/managedit">
             Managed IT
           </Link>
-
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/manageditvalue">
+            Managed IT Value
+          </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/patchmanagement">
+            Patch Management
+          </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/remoteworkforce">
+            Remote Workforce
+          </Link>
+          <Link
+              className="button button--secondary button--lg"
+              to="/docs/customers/Learning/voipservices">
+            VOIP Services
+          </Link>
         </div>
         <br />
+        <button id="zammad-feedback-form">Feedback</button>
+
+        <script id="zammad_form_script" src="https://support.phoenixlimited.net/assets/form/form.js"></script>
+
+        <script src="https://wiki.phoenixlimited.net/zammadform.js"></script>
       </main>
     </Layout>
   );
