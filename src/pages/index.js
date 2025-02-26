@@ -132,10 +132,9 @@ export default function Home() {
         <br />
         <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Want to leave feedback?</h2>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <div className={styles.buttons}>
-          <button id="zammad-feedback-form" className="button button--secondary button--sm">Submit a request!</button>
-        </div>
+
         <br />
+        <button id="zammad-feedback-form">Feedback</button>
         <script id="zammad_form_script" src="https://support.phoenixlimited.net/assets/form/form.js"></script>
         <script src="https://wiki.phoenixlimited.net/zammadform.js"></script>
       </main>
