@@ -19,7 +19,7 @@ const FeatureList = [
       </>
     ),
   },
-    <br />
+    <br />,
   {
     title: 'Google Workspace / M365 / Nextcloud',
     description: (
