@@ -22,7 +22,7 @@ function HomepageHeader() {
             to="/docs/intro">
             Start Here!
           </Link>
-            <div />
+            <p className="space"> </p>
           <Link
               className="button button--secondary button--lg"
               to="mailto:contact@phoenixlimited.net">
