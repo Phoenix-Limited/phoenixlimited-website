@@ -50,6 +50,7 @@ export default function Home() {
           <br />
           <br />
           <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>What we do</h2>
+          <p>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
         </div>
         <HomepageFeatures />
 
