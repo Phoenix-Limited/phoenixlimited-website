@@ -35,3 +35,10 @@
   text-underline-offset: 7px;
   text-decoration-thickness: 2px;
 }
+
+.iconManagement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
