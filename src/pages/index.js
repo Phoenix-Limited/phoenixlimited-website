@@ -130,7 +130,9 @@ export default function Home() {
           </Link>
         </div>
         <br />
-        <button id="zammad-feedback-form" className="button button--secondary button--lg">Feedback</button>
+        <div className={styles.buttons}>
+          <button id="zammad-feedback-form" className="button button--secondary button--lg">Feedback</button>
+        </div>
         <br />
         <script id="zammad_form_script" src="https://support.phoenixlimited.net/assets/form/form.js"></script>
         <script src="https://wiki.phoenixlimited.net/zammadform.js"></script>
