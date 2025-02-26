@@ -82,11 +82,6 @@ export default function Home() {
 
         </div>
         <br />
-        <button id="zammad-feedback-form">Feedback</button>
-
-        <script id="zammad_form_script" src="https://support.phoenixlimited.net/assets/form/form.js"></script>
-
-        <script src={zammadform}></script>
       </main>
     </Layout>
   );
