@@ -221,14 +221,6 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'Website',
-                href: 'https://phoenixlimited.net',
-              },
-              {
-                label: 'Submit a Ticket',
-                href: 'https://phoenixlimited.net',
-              },
-              {
                 label: 'Git',
                 href: 'https://git.phoenixlimited.net/phoenixlimited/wiki-docs/-/tree/main',
               },
