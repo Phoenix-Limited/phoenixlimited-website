@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faExclamationTriangle} />,
-    title: 'Disaster Recovery & Risk Management',
+    title: 'DR & Risk Management',
     description: (
       <>
           With automated backups and services like EDR/MDR, we can ensure your network is rock solid.
@@ -56,7 +56,7 @@ const FeatureList = [
     title: 'Fast Ticketing',
     description: (
       <>
-          Our support technicians respond quickly to online integrated tickets that can be submitted directly from the desktop and on-site work is scheduled within a few days with normal operating capacities.
+          Expedient ticket submissions and responses.
       </>
     ),
   },
