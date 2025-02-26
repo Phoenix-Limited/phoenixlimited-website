@@ -29,7 +29,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Service({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -49,7 +49,7 @@ export default function HomepageServices() {
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+            <Service key={idx} {...props} />
           ))}
         </div>
       </div>
