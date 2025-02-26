@@ -49,7 +49,7 @@ export default function Home() {
         <div>
           <br />
           <br />
-          <h2 className={clsx(styles.alignCenter)}>What we do</h2>
+          <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>What we do</h2>
         </div>
         <HomepageFeatures />
 
