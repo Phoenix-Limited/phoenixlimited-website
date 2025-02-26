@@ -2,10 +2,12 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import {fas} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const FeatureList = [
   {
-    title: '<FontAwesomeIcon icon={fas.faDesktop} /> RMM & Hardened Security',
+    icon: <FontAwesomeIcon icon={fas.faDesktop} />,
+    title: 'RMM & Hardened Security',
     description: (
       <>
           We provide full management and security to all of your laptops, desktops, servers, and mobile devices.
@@ -13,6 +15,7 @@ const FeatureList = [
     ),
   },
   {
+      icon: <FontAwesomeIcon icon={fas.faDesktop} />,
     title: 'Disaster Recovery & Risk Management',
     description: (
       <>
@@ -21,6 +24,7 @@ const FeatureList = [
     ),
   },
   {
+    icon: <FontAwesomeIcon icon={fas.faDesktop} />,
     title: 'Google Workspace / M365 / Nextcloud',
     description: (
       <>
@@ -30,6 +34,7 @@ const FeatureList = [
   },
     <br />,
     {
+        icon: <FontAwesomeIcon icon={fas.faDesktop} />,
         title: 'Email and Website Hosting/Development',
         description: (
             <>
@@ -38,6 +43,7 @@ const FeatureList = [
         ),
     },
     {
+        icon: <FontAwesomeIcon icon={fas.faDesktop} />,
         title: 'A/V Solutions & Digital Signage',
         description: (
             <>
@@ -46,6 +52,7 @@ const FeatureList = [
         ),
     },
     {
+        icon: <FontAwesomeIcon icon={fas.faDesktop} />,
         title: 'Fast Ticketing',
         description: (
             <>
@@ -55,6 +62,7 @@ const FeatureList = [
     },
     <br />,
     {
+        icon: <FontAwesomeIcon icon={fas.faDesktop} />,
         title: 'Security Systems',
         description: (
             <>
@@ -63,6 +71,7 @@ const FeatureList = [
         ),
     },
     {
+        icon: <FontAwesomeIcon icon={fas.faDesktop} />,
         title: 'VOIP/Phone Solutions',
         description: (
             <>
@@ -71,6 +80,7 @@ const FeatureList = [
         ),
     },
     {
+        icon: <FontAwesomeIcon icon={fas.faDesktop} />,
         title: 'Server Deployments',
         description: (
             <>
@@ -84,7 +94,7 @@ function Service({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3">{icon} {title}</Heading>
         <p>{description}</p>
       </div>
     </div>
