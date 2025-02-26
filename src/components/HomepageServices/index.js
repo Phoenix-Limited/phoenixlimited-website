@@ -15,7 +15,7 @@ const FeatureList = [
     ),
   },
   {
-    icon: <FontAwesomeIcon icon={fas.faExclamation} />,
+    icon: <FontAwesomeIcon icon={fas.faExclamationTriangle} />,
     title: 'Disaster Recovery & Risk Management',
     description: (
       <>
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     icon: <FontAwesomeIcon icon={fas.faCloud} />,
-    title: 'Google Workspace / M365 / Nextcloud',
+    title: 'Cloud Workplaces',
     description: (
       <>
           Domain and user management through either Google Workspace, M365, or NextCloud.
@@ -35,7 +35,7 @@ const FeatureList = [
   <br />,
   {
     icon: <FontAwesomeIcon icon={fas.faDesktop}/>,
-    title: 'Email and Website Hosting/Development',
+    title: 'Email and Website Services',
     description: (
       <>
           We can provide full mail servers, and program and host web servers.
