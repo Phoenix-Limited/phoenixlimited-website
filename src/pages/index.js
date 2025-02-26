@@ -7,6 +7,14 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons'
+
+const element = <FontAwesomeIcon icon={byPrefixAndName.fas['house']} />
+
+ReactDOM.render(element, document.body)
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -50,7 +58,8 @@ export default function Home() {
           <br />
           <br />
           <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>What we do</h2>
-          <p>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
+          <p className={clsx(styles.alignCenter)}>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
+          <FontAwesomeIcon icon={fas.faDesktop} />
         </div>
         <HomepageFeatures />
 
