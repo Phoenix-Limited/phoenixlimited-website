@@ -1,10 +1,11 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import {fas} from "@fortawesome/free-solid-svg-icons";
 
 const FeatureList = [
   {
-    title: 'RMM & Hardened Security',
+    title: '<FontAwesomeIcon icon={fas.faDesktop} /> RMM & Hardened Security',
     description: (
       <>
           We provide full management and security to all of your laptops, desktops, servers, and mobile devices.
@@ -19,15 +20,64 @@ const FeatureList = [
       </>
     ),
   },
-    <br />,
   {
     title: 'Google Workspace / M365 / Nextcloud',
     description: (
       <>
-          Domain and user management through either Google Workspace, M365, or NextCloud
+          Domain and user management through either Google Workspace, M365, or NextCloud.
       </>
     ),
   },
+    <br />,
+    {
+        title: 'Email and Website Hosting/Development',
+        description: (
+            <>
+                We can provide full mail servers, and program and host web servers.
+            </>
+        ),
+    },
+    {
+        title: 'A/V Solutions & Digital Signage',
+        description: (
+            <>
+                Installation and management of digital signage, displays and speaker systems.
+            </>
+        ),
+    },
+    {
+        title: 'Fast Ticketing',
+        description: (
+            <>
+                Our support technicians respond quickly to online integrated tickets that can be submitted directly from the desktop and on-site work is scheduled within a few days with normal operating capacities.
+            </>
+        ),
+    },
+    <br />,
+    {
+        title: 'Security Systems',
+        description: (
+            <>
+                Fully managed Alarm/Camera systems with remote view capabilities.
+            </>
+        ),
+    },
+    {
+        title: 'VOIP/Phone Solutions',
+        description: (
+            <>
+                Fully managed and integrated phone/video/teleconference solutions to fit your needs.
+            </>
+        ),
+    },
+    {
+        title: 'Server Deployments',
+        description: (
+            <>
+                New or existing server management and monitoring.
+            </>
+        ),
+    },
 ];
 
 function Service({Svg, title, description}) {
