@@ -23,28 +23,23 @@ function HomepageHeader() {
             Start Here!
           </Link>
         </div>
+        <br />
         <div className={styles.buttons}>
-          <div>
           <Link
             className="button button--secondary button--lg"
             to="mailto:contact@phoenixlimited.net">
             Email Us
           </Link>
-        </div>
-          <div>
           <Link
             className="button button--secondary button--lg"
             to="tel:+1-765-246-7845">
             Call/Text Us
           </Link>
-          </div>
-          <div>
           <Link
             className="button button--secondary button--lg"
             to="https://office.phoenixlimited.net/index.php/apps/appointments/pub/a3MDbbDB2CEt5NqD/form">
             Book and Appointment
           </Link>
-          </div>
         </div>
       </div>
     </header>
