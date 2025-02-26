@@ -4,7 +4,18 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomepageServices from '@site/src/components/HomepageServices';
-import pdf from '@site/static/tos.pdf';
+import tospdf from '@site/static/tos.pdf';
+import privacypdf from '@site/static/privacy.pdf';
+import alacartepdf from '@site/static/alacarte.pdf';
+import edrpdf from '@site/static/edr.pdf';
+import fixedcostscalabilitypdf from '@site/static/fixedcostscalability.pdf';
+import itcompliancepdf from '@site/static/itcompliance.pdf';
+import macmanagementpdf from '@site/static/macmanagement.pdf';
+import manageditpdf from '@site/static/managedit.pdf';
+import manageditvaluepdf from '@site/static/manageditvalue.pdf';
+import patchmanagementpdf from '@site/static/patchmanagement.pdf';
+import remoteworkforcepdf from '@site/static/remoteworkforce.pdf';
+import voipservicespdf from '@site/static/voipservices.pdf';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -77,7 +88,51 @@ export default function Home() {
         <ul>
           <details>
             <summary>Managed IT</summary>
-            <iframe src={pdf} width="100%" height="500px" />
+            <iframe src={manageditpdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>Cost and Scalability</summary>
+            <iframe src={fixedcostscalabilitypdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>IT Compliance</summary>
+            <iframe src={itcompliancepdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>EDR</summary>
+            <iframe src={edrpdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>Value of MSP services</summary>
+            <iframe src={manageditvaluepdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>A la Carte Services</summary>
+            <iframe src={alacartepdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>Patch Management</summary>
+            <iframe src={patchmanagementpdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>VOIP</summary>
+            <iframe src={voipservicespdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>MacOS Management</summary>
+            <iframe src={macmanagementpdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>Remote Workforce Integration</summary>
+            <iframe src={remoteworkforcepdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>Privacy Policy</summary>
+            <iframe src={privacypdf} width="100%" height="500px" />
+          </details>
+          <details>
+            <summary>Terms of Service</summary>
+            <iframe src={tospdf} width="100%" height="500px" />
           </details>
         </ul>
       </main>
