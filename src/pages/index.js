@@ -9,6 +9,7 @@ import styles from './index.module.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {fas} from '@fortawesome/free-solid-svg-icons'
+import HomepageServices from "../components/HomepageServices";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -68,6 +69,7 @@ export default function Home() {
           <p className={clsx(styles.alignCenter)}>An example selection of services we can provide to better your business and save you time</p>
           <br />
         </div>
+        <HomepageServices/>
       </main>
     </Layout>
   );
