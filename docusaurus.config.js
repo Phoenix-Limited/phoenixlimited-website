@@ -191,6 +191,11 @@ const config = {
                 label: 'Youtube',
                 href: 'https://www.youtube.com/@PhoenixLimited',
               },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
               {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/people/Phoenix-Limited/100094090824049/',
