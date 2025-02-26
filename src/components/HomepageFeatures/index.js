@@ -2,9 +2,13 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-<p className="title">What we do</p>
-<p>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring,
-    networking, structured cabling, and security solutions, among many other things.</p>
+export default function Section1() {
+    return (
+        <div>
+            <h1>What we do</h1>
+        </div>
+    );
+}
 
 const FeatureList = [
   {
