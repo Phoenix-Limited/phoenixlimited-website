@@ -115,7 +115,26 @@ const config = {
           {
             type: 'dropdown',
             position: 'right',
-            label: 'Services',
+            label: 'Customer Portals',
+            items: [
+              {
+                label: 'SSO Portal',
+                href: 'https://auth.phoenixlimited.net',
+              },
+              {
+                label: 'Support',
+                href: 'https://support.phoenixlimited.net',
+              },
+              {
+                label: 'Gitlab',
+                href: 'https://git.phoenixlimited.net',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'right',
+            label: 'Quick Links',
             items: [
               {
                 label: 'SSO Portal',
@@ -169,12 +188,20 @@ const config = {
                 href: 'https://discord.gg/q2GqwHsQeX',
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@PhoenixLimited',
               },
               {
-                label: 'Website',
-                href: 'https://phoenixlimited.net',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/people/Phoenix-Limited/100094090824049/',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/phoenix_limited/',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/phoenix_lmtd',
               },
             ],
           },
