@@ -32,6 +32,6 @@
 .headerUnderline {
   text-decoration: underline;
   text-decoration-color: gray;
-  text-underline-offset: 5px;
+  text-underline-offset: 7.5px;
   text-decoration-thickness: 2px;
 }
