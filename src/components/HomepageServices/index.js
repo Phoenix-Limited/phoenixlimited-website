@@ -15,7 +15,7 @@ const FeatureList = [
     ),
   },
   {
-      icon: <FontAwesomeIcon icon={fas.faDesktop} />,
+    icon: <FontAwesomeIcon icon={fas.faDesktop} />,
     title: 'Disaster Recovery & Risk Management',
     description: (
       <>
@@ -90,7 +90,7 @@ const FeatureList = [
     },
 ];
 
-function Service({Svg, title, description}) {
+function Service({icon, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
