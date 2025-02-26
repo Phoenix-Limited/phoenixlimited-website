@@ -5,7 +5,6 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'RMM & Hardened Security',
-    Svg: require('@site/static/img/fixed-costs.svg').default,
     description: (
       <>
           We provide full management and security to all of your laptops, desktops, servers, and mobile devices.
@@ -14,16 +13,15 @@ const FeatureList = [
   },
   {
     title: 'Disaster Recovery & Risk Management',
-    Svg: require('@site/static/img/fixed-costs.svg').default,
     description: (
       <>
           With automated backups and services like EDR/MDR, we can ensure your network is rock solid.
       </>
     ),
   },
+    <br />
   {
     title: 'Google Workspace / M365 / Nextcloud',
-    Svg: require('@site/static/img/fixed-costs.svg').default,
     description: (
       <>
           Domain and user management through either Google Workspace, M365, or NextCloud
