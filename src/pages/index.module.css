@@ -23,6 +23,8 @@
   gap: 5px;
 }
 
-.center {
-  text-align: center;
+.alignCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

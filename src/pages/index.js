@@ -47,7 +47,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <div>
-          <h2 className={center}>What we do</h2>
+          <h2 className="alignCenter">What we do</h2>
         </div>
         <HomepageFeatures />
 
