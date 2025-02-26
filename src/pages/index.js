@@ -33,9 +33,6 @@ function HomepageHeader() {
             Book and Appointment
           </Link>
         </div>
-        <br />
-        <p className="hero__subtitle">What we do</p>
-        <p>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
       </div>
     </header>
   );
