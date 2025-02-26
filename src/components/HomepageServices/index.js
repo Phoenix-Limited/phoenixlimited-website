@@ -7,82 +7,82 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const FeatureList = [
   {
     icon: <FontAwesomeIcon icon={fas.faDesktop} />,
-    title: '1',
+    title: 'RMM & Hardened Security',
     description: (
       <>
-          1
+          We provide full management and security to all of your laptops, desktops, servers, and mobile devices.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faExclamationTriangle} />,
-    title: '2',
+    title: 'DR & Risk Management',
     description: (
       <>
-          2
+          With automated backups and services like EDR/MDR, we can ensure your network is rock solid.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faCloud} />,
-    title: '3',
+    title: 'Cloud Workplaces',
     description: (
       <>
-          3
+          Domain and user management through either Google Workspace, M365, or NextCloud.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faDesktop}/>,
-    title: '4',
+    title: 'Email and Website Services',
     description: (
       <>
-          4
+          We can provide full mail servers, and program and host web servers.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faHeadphones} />,
-    title: '5',
+    title: 'A/V & Digital Signage',
     description: (
       <>
-          5
+          Installation and management of digital signage, displays and speaker systems.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faScrewdriver} />,
-    title: '6',
+    title: 'Fast Ticketing',
     description: (
       <>
-          6
+          Expedient ticket submissions and responses.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faCamera} />,
-    title: '7',
+    title: 'Security Systems',
     description: (
       <>
-          7
+          Fully managed Alarm/Camera systems with remote view capabilities.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faPhone} />,
-    title: '8',
+    title: 'VOIP/Phone Solutions',
     description: (
       <>
-          8
+          Fully managed phone/video/teleconference solutions to fit your needs.
       </>
     ),
   },
   {
     icon: <FontAwesomeIcon icon={fas.faServer} />,
-    title: '9',
+    title: 'Server Deployments',
     description: (
       <>
-          9
+          New or existing server management and monitoring.
       </>
     ),
   },
