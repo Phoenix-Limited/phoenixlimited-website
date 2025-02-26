@@ -178,6 +178,27 @@ const config = {
               },
             ],
           },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Terms of Service',
+                href: 'tos',
+              },
+              {
+                label: 'Privacy Policy',
+                href: 'privacy',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Website',
+                href: 'https://phoenixlimited.net',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Phoenix Limited · Pioneering Technology`,
       },
