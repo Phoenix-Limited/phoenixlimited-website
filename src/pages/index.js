@@ -69,7 +69,7 @@ export default function Home() {
           <p className={clsx(styles.alignCenter)}>An example selection of services we can provide to better your business and save you time</p>
           <br />
         </div>
-        <HomepageServices/>
+        <HomepageServices />
       </main>
     </Layout>
   );
