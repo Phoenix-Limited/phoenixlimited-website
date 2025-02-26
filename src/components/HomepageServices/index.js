@@ -4,27 +4,27 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Fixed Cost or À la carte',
+    title: 'RMM & Hardened Security',
     description: (
       <>
-          Whether you need one service call for a specific issue or full IoT management, we can dynamically generate the best package for you.
+          We provide full management and security to all of your laptops, desktops, servers, and mobile devices.
       </>
     ),
   },
   {
-    title: 'Fast Response',
+    title: 'Disaster Recovery & Risk Management',
     description: (
       <>
-          We guarantee a same day response to new tickets and calls within reasonable hours
+          With automated backups and services like EDR/MDR, we can ensure your network is rock solid.
       </>
     ),
   },
     <br/>,
   {
-    title: 'What you can you expect from Phoenix Limited',
+    title: 'Google Workspace / M365 / Nextcloud',
     description: (
       <>
-          You can expect same-day response and regularly same day fixes for many IoT issues, including ones related to networking, apps, services, and management.
+          Domain and user management through either Google Workspace, M365, or NextCloud
       </>
     ),
   },
