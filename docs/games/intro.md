@@ -16,7 +16,7 @@ Resource Packs:
 1. [PhoenixTech Biome Structure Name Fixes](https://www.curseforge.com/minecraft/texture-packs/phoenixtech-biome-structure-name-fixes)
 
 And the Shaderpacks
-1. [PhoenixTech's Complement](PhoenixTech's Complement)
+1. [PhoenixTech's Complement](https://www.curseforge.com/minecraft/shaders/phoenixtechs-complement)
 
 
 ### We also provide servers for games, either self served or custom built
