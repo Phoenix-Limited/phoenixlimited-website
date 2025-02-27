@@ -54,7 +54,7 @@ export default function Home() {
           <br />
           <br />
           <br />
-          <h1 className={clsx(styles.alignCenter, styles.headerUnderline)}>What we do</h1>
+          <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>What we do</h2>
           <br />
           <br />
           <br />
@@ -65,13 +65,14 @@ export default function Home() {
           </div>
           <br />
           <br />
-          <h3 className={clsx(styles.alignCenter)}>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</h3>
+          <p className={clsx(styles.alignCenter)}>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
         </div>
         <HomepageFeatures />
         <div>
           <br />
           <br />
           <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Service Overview</h2>
+          <br />
           <p className={clsx(styles.alignCenter)}>An example selection of services we can provide to better your business and save you time</p>
         </div>
         <br />
@@ -87,7 +88,7 @@ export default function Home() {
           <Link
               className="button button--secondary button--lg"
               to="/docs/customers/Learning/alacarte">
-            A la Carte Services
+            À la Carte Services
           </Link>
           <Link
               className="button button--secondary button--lg"

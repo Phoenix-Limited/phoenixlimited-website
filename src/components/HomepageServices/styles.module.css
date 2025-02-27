@@ -3,7 +3,7 @@
   align-items: center;
   padding: 3rem 0;
   width: 100%;
-  gap: 2rem;
+  row-gap: 100px;
 }
 
 .featureSvg {

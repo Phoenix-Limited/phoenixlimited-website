@@ -168,6 +168,10 @@ const config = {
                 label: 'Gitlab',
                 href: 'https://git.phoenixlimited.net',
               },
+              {
+                label: 'Uptime',
+                href: 'https://uptime.phoenixlimited.net',
+              },
             ],
           },
         ],
