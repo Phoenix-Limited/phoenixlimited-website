@@ -3,7 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import HomepageServices from '@site/src/components/HomepageServices';
+import HomepageServices from '@site/src/components/HomepageServices1';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -67,6 +67,8 @@ export default function Home() {
           <br />
           <p className={clsx(styles.alignCenter)}>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
         </div>
+        <br />
+        <br />
         <HomepageFeatures />
         <div>
           <br />
@@ -77,7 +79,11 @@ export default function Home() {
         </div>
         <br />
         <br />
-        <HomepageServices />
+        <HomepageServices1 />
+        <br />
+        <HomepageServices2 />
+        <br />
+        <HomepageServices3 />
         <br />
         <br/>
         <h1 className={clsx(styles.alignCenter, styles.headerUnderline)}>Questions?</h1>

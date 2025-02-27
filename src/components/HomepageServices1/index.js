@@ -32,63 +32,9 @@ const FeatureList = [
       </>
     ),
   },
-  {
-    icon: <FontAwesomeIcon icon={fas.faDesktop}/>,
-    title: 'Email and Website Services',
-    description: (
-      <>
-          We can provide full mail servers, and program and host web servers.
-      </>
-    ),
-  },
-  {
-    icon: <FontAwesomeIcon icon={fas.faHeadphones} />,
-    title: 'A/V & Digital Signage',
-    description: (
-      <>
-          Installation and management of digital signage, displays and speaker systems.
-      </>
-    ),
-  },
-  {
-    icon: <FontAwesomeIcon icon={fas.faScrewdriver} />,
-    title: 'Fast Ticketing',
-    description: (
-      <>
-          Expedient ticket submissions and responses.
-      </>
-    ),
-  },
-  {
-    icon: <FontAwesomeIcon icon={fas.faCamera} />,
-    title: 'Security Systems',
-    description: (
-      <>
-          Fully managed Alarm/Camera systems with remote view capabilities.
-      </>
-    ),
-  },
-  {
-    icon: <FontAwesomeIcon icon={fas.faPhone} />,
-    title: 'VOIP/Phone Solutions',
-    description: (
-      <>
-          Fully managed phone/video/teleconference solutions to fit your needs.
-      </>
-    ),
-  },
-  {
-    icon: <FontAwesomeIcon icon={fas.faServer} />,
-    title: 'Server Deployments',
-    description: (
-      <>
-          New or existing server management and monitoring.
-      </>
-    ),
-  },
 ];
 
-function Service({icon, title, description}) {
+function Service1({icon, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
@@ -99,13 +45,13 @@ function Service({icon, title, description}) {
   );
 }
 
-export default function HomepageServices() {
+export default function HomepageServices1() {
   return (
     <section className={styles.features}>
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
-            <Service key={idx} {...props} />
+            <Service1 key={idx} {...props} />
           ))}
         </div>
       </div>
