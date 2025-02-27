@@ -73,13 +73,15 @@ export default function Home() {
           <br />
           <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Service Overview</h2>
           <p className={clsx(styles.alignCenter)}>An example selection of services we can provide to better your business and save you time</p>
-          <br />
         </div>
+        <br />
+        <br />
         <HomepageServices />
         <br />
+        <br/>
         <h1 className={clsx(styles.alignCenter, styles.headerUnderline)}>Questions?</h1>
         <br />
-        <h2 className={clsx(styles.alignCenter)}>Take a look how we can benefit your business.</h2>
+        <p className={clsx(styles.alignCenter)}>Take a look how we can benefit your business.</p>
         <br />
         <div className={styles.buttons}>
           <Link
