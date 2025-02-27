@@ -129,6 +129,18 @@ const config = {
                 label: 'Gitlab',
                 href: 'https://git.phoenixlimited.net',
               },
+              {
+                label: 'RMM',
+                href: 'https://rmm.phoenixlimited.net',
+              },
+              {
+                label: 'Game Servers',
+                href: 'https://panel.phoenixlimited.net',
+              },
+              {
+                label: 'Office',
+                href: 'https://office.phoenixlimited.net',
+              },
             ],
           },
           {
@@ -147,6 +159,14 @@ const config = {
               {
                 label: 'Media Requests',
                 href: 'https://request.phoenixlimited.net',
+              },
+              {
+                label: 'Audiobooks & Ebooks',
+                href: 'https://books.phoenixlimited.net',
+              },
+              {
+                label: 'Gitlab',
+                href: 'https://git.phoenixlimited.net',
               },
             ],
           },
@@ -194,7 +214,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
               {
                 label: 'Facebook',
@@ -207,6 +227,10 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/phoenix_lmtd',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
@@ -222,8 +246,8 @@ const config = {
                 href: '/privacy',
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Uptime',
+                href: 'https://uptime.phoenixlimited.net',
               },
               {
                 label: 'Git',

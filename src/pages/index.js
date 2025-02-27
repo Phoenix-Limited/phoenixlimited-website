@@ -53,7 +53,10 @@ export default function Home() {
         <div>
           <br />
           <br />
-          <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>What we do</h2>
+          <br />
+          <h1 className={clsx(styles.alignCenter, styles.headerUnderline)}>What we do</h1>
+          <br />
+          <br />
           <br />
           <div className={clsx(styles.iconManagement)}>
             <FontAwesomeIcon icon={fas.faDesktop} size="6x" />
@@ -61,10 +64,12 @@ export default function Home() {
             <FontAwesomeIcon icon={fas.faCode} size="6x" />
           </div>
           <br />
-          <p className={clsx(styles.alignCenter)}>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</p>
+          <br />
+          <h3 className={clsx(styles.alignCenter)}>As an MSP, we offer a full suite of IT services, including Remote Management & Monitoring, networking, structured cabling, and security solutions, among many other things.</h3>
         </div>
         <HomepageFeatures />
         <div>
+          <br />
           <br />
           <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Service Overview</h2>
           <p className={clsx(styles.alignCenter)}>An example selection of services we can provide to better your business and save you time</p>
@@ -72,8 +77,10 @@ export default function Home() {
         </div>
         <HomepageServices />
         <br />
-        <h2 className={clsx(styles.alignCenter, styles.headerUnderline)}>Questions?</h2>
-        <p className={clsx(styles.alignCenter)}>Take a look how we can benefit your business.</p>
+        <h1 className={clsx(styles.alignCenter, styles.headerUnderline)}>Questions?</h1>
+        <br />
+        <h2 className={clsx(styles.alignCenter)}>Take a look how we can benefit your business.</h2>
+        <br />
         <div className={styles.buttons}>
           <Link
               className="button button--secondary button--lg"
@@ -129,6 +136,7 @@ export default function Home() {
             VOIP Services
           </Link>
         </div>
+        <br />
         <br />
       </main>
     </Layout>
