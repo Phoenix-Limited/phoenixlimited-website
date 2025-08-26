@@ -1,3 +1,4 @@
 .obsidian
 .firebase
 /.idea/
+/node_modules/
