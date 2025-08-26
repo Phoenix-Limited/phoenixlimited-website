@@ -1,0 +1,22 @@
+{
+  "id": "customers/Onboarding/rmm",
+  "title": "The Tactical RMM Agent Installation",
+  "description": "Choose the system that you're trying to install the agent below",
+  "source": "@site/docs/customers/Onboarding/rmm.mdx",
+  "sourceDirName": "customers/Onboarding",
+  "slug": "/customers/Onboarding/rmm",
+  "permalink": "/docs/customers/Onboarding/rmm",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/-/tree/main/docs/customers/Onboarding/rmm.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Remote Management Software"
+  },
+  "sidebar": "customerSidebar",
+  "previous": {
+    "title": "VOIP Services",
+    "permalink": "/docs/customers/Learning/voipservices"
+  }
+}

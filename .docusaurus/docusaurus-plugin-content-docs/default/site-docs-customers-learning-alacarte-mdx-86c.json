@@ -1,0 +1,26 @@
+{
+  "id": "customers/Learning/alacarte",
+  "title": "À La Carte Services",
+  "description": "",
+  "source": "@site/docs/customers/Learning/alacarte.mdx",
+  "sourceDirName": "customers/Learning",
+  "slug": "/customers/Learning/alacarte",
+  "permalink": "/docs/customers/Learning/alacarte",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/-/tree/main/docs/customers/Learning/alacarte.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "À La Carte Services"
+  },
+  "sidebar": "customerSidebar",
+  "previous": {
+    "title": "Start Here!",
+    "permalink": "/docs/customers/intro"
+  },
+  "next": {
+    "title": "EDR",
+    "permalink": "/docs/customers/Learning/edr"
+  }
+}

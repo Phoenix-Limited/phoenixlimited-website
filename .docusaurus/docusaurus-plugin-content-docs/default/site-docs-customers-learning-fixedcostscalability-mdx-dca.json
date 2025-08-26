@@ -1,0 +1,26 @@
+{
+  "id": "customers/Learning/fixedcostscalability",
+  "title": "Cost and Scalability",
+  "description": "",
+  "source": "@site/docs/customers/Learning/fixedcostscalability.mdx",
+  "sourceDirName": "customers/Learning",
+  "slug": "/customers/Learning/fixedcostscalability",
+  "permalink": "/docs/customers/Learning/fixedcostscalability",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/-/tree/main/docs/customers/Learning/fixedcostscalability.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Cost and Scalability"
+  },
+  "sidebar": "customerSidebar",
+  "previous": {
+    "title": "EDR",
+    "permalink": "/docs/customers/Learning/edr"
+  },
+  "next": {
+    "title": "IT Compliance",
+    "permalink": "/docs/customers/Learning/itcompliance"
+  }
+}

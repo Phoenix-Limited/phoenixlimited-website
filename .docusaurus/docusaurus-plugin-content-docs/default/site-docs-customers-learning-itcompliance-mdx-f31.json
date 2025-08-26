@@ -1,0 +1,26 @@
+{
+  "id": "customers/Learning/itcompliance",
+  "title": "IT Compliance",
+  "description": "",
+  "source": "@site/docs/customers/Learning/itcompliance.mdx",
+  "sourceDirName": "customers/Learning",
+  "slug": "/customers/Learning/itcompliance",
+  "permalink": "/docs/customers/Learning/itcompliance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://git.phoenixlimited.net/phoenixlimited/wiki-docs/-/tree/main/docs/customers/Learning/itcompliance.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "IT Compliance"
+  },
+  "sidebar": "customerSidebar",
+  "previous": {
+    "title": "Cost and Scalability",
+    "permalink": "/docs/customers/Learning/fixedcostscalability"
+  },
+  "next": {
+    "title": "Mac Management",
+    "permalink": "/docs/customers/Learning/macmanagement"
+  }
+}
