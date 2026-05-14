@@ -23,6 +23,7 @@ const Footer = () => {
                         <ul className="space-y-2 text-sm">
                             <li><a href="#services" className="hover:text-brand-secondary transition-colors">Services</a></li>
                             <li><a href="#about" className="hover:text-brand-secondary transition-colors">About Us</a></li>
+                            <li><a href="#support" className="hover:text-brand-secondary transition-colors">Support</a></li>
                             <li><a href="#contact" className="hover:text-brand-secondary transition-colors">Contact</a></li>
                         </ul>
                     </div>
@@ -30,8 +31,8 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-semibold mb-4">Legal</h4>
                         <ul className="space-y-2 text-sm">
-                            <li><a href="#" className="hover:text-brand-secondary transition-colors">Privacy Policy</a></li>
-                            <li><a href="#" className="hover:text-brand-secondary transition-colors">Terms of Service</a></li>
+                            <li><a href="/privacy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-brand-secondary transition-colors">Privacy Policy</a></li>
+                            <li><a href="/tos.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-brand-secondary transition-colors">Terms of Service</a></li>
                         </ul>
                     </div>
                 </div>

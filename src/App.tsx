@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
+import Support from './components/Support';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -13,6 +14,7 @@ const LandingPage = () => (
             <Hero />
             <Services />
             <About />
+            <Support />
             <Contact />
         </main>
         <Footer />
