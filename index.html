@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phoenix Limited | Custom IT Solutions in Plainfield, IN</title>
+    <script>
+        function initFreshdesk() {
+            window.fdWidget.init({
+                token: "01KRFK2YP1NEE6PZ17KKXP7DAT",
+                host: "https://phoenixlimited.freshdesk.com",
+                widgetId: "01KRFK318AVDHR9PESY4V6SK0T"
+            });
+        }
+
+        function initialize(i, t) {
+            var e;
+            i.getElementById(t) ? initFreshdesk() : ((e = i.createElement("script")).id = t, e.async = !0, e.src = "https://phoenixlimited.freshdesk.com/webchat/js/widget.js", e.onload = initFreshdesk, i.head.appendChild(e));
+        }
+
+        function initiateCall() {
+            initialize(document, "Freshdesk-js-sdk");
+        }
+
+        window.addEventListener ? window.addEventListener("load", initiateCall, !1) : window.attachEvent("load", initiateCall, !1);
+    </script>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
