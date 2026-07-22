@@ -63,13 +63,21 @@ body {
     background-color: #f1f5f9 !important; /* Tailwind slate-100 */
 }
 
-/* 4. Restore Froala's native button groups to stop the spreading */
-#halo-form .fr-toolbar .fr-btn-grp {
+/* 4. Restore Froala's native button groups AND split-button wrappers */
+#halo-form .fr-toolbar .fr-btn-grp,
+#halo-form .fr-toolbar .fr-btn-wrap {
     display: inline-flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important; /* Absolutely prevents split buttons from dropping */
     align-items: center !important;
-    margin: 0 8px 0 0 !important; /* Clean space between button groups */
+    margin: 0 4px 0 0 !important; /* Clean space between button groups */
     padding: 0 !important;
     border: none !important;
+}
+
+/* Ensure the two halves of a split button sit perfectly flush against each other */
+#halo-form .fr-toolbar .fr-btn-wrap .fr-btn {
+    margin: 0 !important;
 }
 
 /* 5. Ensure the main toolbar flows horizontally on a single line */
