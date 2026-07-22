@@ -18,7 +18,7 @@ const Contact = () => {
         // 1. Assign the configuration object to the global window
         window.haloFormConfig = {
             haloApiUrl: "https://phoenixlimited.halopsa.com/api",
-            ticketTypeId: 28,
+            ticketTypeId: 36,
             ticketTypeKey: "2ca06271-1402-403d-8949-3b6483b298c1",
         };
 
