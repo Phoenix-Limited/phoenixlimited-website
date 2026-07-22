@@ -19,3 +19,56 @@ body {
   --color-brand-secondary: #f97316;
   --color-brand-accent: #3b82f6;
 }
+
+/* Fix HaloPSA (Froala) Rich Text Editor vs Tailwind Preflight */
+
+/* 1. Keep icons small and override Tailwind's block display */
+#halo-form .fr-toolbar svg {
+    width: 14px !important;
+    height: 14px !important;
+    display: inline-block !important; /* Critical: Reverts Tailwind's SVG reset */
+    vertical-align: middle !important;
+}
+
+/* 2. Format individual buttons to be tight and compact */
+#halo-form .fr-toolbar .fr-btn {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 6px !important;
+    margin: 0 1px !important;
+    border-radius: 4px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+}
+
+/* 3. Add a subtle hover state for interactivity */
+#halo-form .fr-toolbar .fr-btn:hover {
+    background-color: #f1f5f9 !important; /* Tailwind slate-100 */
+}
+
+/* 4. Restore Froala's native button groups to stop the spreading */
+#halo-form .fr-toolbar .fr-btn-grp {
+    display: inline-flex !important;
+    align-items: center !important;
+    margin: 0 8px 0 0 !important; /* Clean space between button groups */
+    padding: 0 !important;
+    border: none !important;
+}
+
+/* 5. Ensure the main toolbar flows horizontally like the native layout */
+#halo-form .fr-toolbar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    padding: 4px !important;
+}
+
+/* Fix dropdown text/arrows inside buttons */
+#halo-form .fr-toolbar .fr-btn span,
+#halo-form .fr-toolbar .fr-btn i {
+    font-size: 13px !important;
+    margin-left: 2px !important;
+    display: inline-block !important;
+}
