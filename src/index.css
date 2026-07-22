@@ -34,21 +34,21 @@ body {
 #halo-form .fr-toolbar .fr-btn {
     background-color: transparent !important;
     border: none !important;
-    padding: 6px !important;
-    margin: 0 1px !important;
-    border-radius: 4px !important;
 
-    /* Magic lines to fix the dropdown arrows */
+    /* Shrink the button footprint */
+    padding: 4px !important;
+    margin: 0 !important;
+
+    border-radius: 4px !important;
     display: inline-flex !important;
-    flex-direction: row !important; /* Forces icon and arrow side-by-side */
-    flex-wrap: nowrap !important;   /* Absolutely prevents the arrow from dropping down */
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
     align-items: center !important;
     justify-content: center !important;
-
     cursor: pointer !important;
 }
 
-/* Fix dropdown text/arrows inside buttons to flow properly in the flex row */
+/* Fix dropdown text/arrows inside buttons */
 #halo-form .fr-toolbar .fr-btn span,
 #halo-form .fr-toolbar .fr-btn i {
     display: inline-flex !important;
@@ -68,9 +68,12 @@ body {
 #halo-form .fr-toolbar .fr-btn-wrap {
     display: inline-flex !important;
     flex-direction: row !important;
-    flex-wrap: nowrap !important; /* Absolutely prevents split buttons from dropping */
+    flex-wrap: nowrap !important;
     align-items: center !important;
-    margin: 0 4px 0 0 !important; /* Clean space between button groups */
+
+    /* Reduce the gap between groups */
+    margin: 0 2px 0 0 !important;
+
     padding: 0 !important;
     border: none !important;
 }
