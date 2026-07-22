@@ -18,8 +18,8 @@ const Contact = () => {
         // 1. Assign the configuration object to the global window
         window.haloFormConfig = {
             haloApiUrl: "https://phoenixlimited.halopsa.com/api",
-            ticketTypeId: 1,
-            ticketTypeKey: "cd07be32-d9ce-44fe-a77c-eb301335e445",
+            ticketTypeId: 28,
+            ticketTypeKey: "2ca06271-1402-403d-8949-3b6483b298c1",
         };
 
         // 2. Inject HaloPSA CSS stylesheet if not already present
