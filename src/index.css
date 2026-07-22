@@ -20,26 +20,33 @@ body {
   --color-brand-accent: #3b82f6;
 }
 
-#halo-form [class*="toolbar"] button svg,
-#halo-form [class*="toolbar"] .tox-icon svg {
-  width: 18px !important;
-  height: 18px !important;
-  max-width: 18px !important;
-  max-height: 18px !important;
-  display: inline-block !important;
-  vertical-align: middle !important;
+#halo-form .tox-toolbar__primary {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
 }
 
-#halo-form [class*="toolbar"] button {
-  padding: 4px 6px !important;
-  min-width: unset !important;
-  height: auto !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+#halo-form .tox-toolbar__group {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 4px 0 0 !important;
+    padding: 0 !important;
+    border: none !important;
 }
 
-#halo-form [class*="toolbar"] {
-  background-color: #f8fafc !important;
-  border-bottom: 1px solid #e2e8f0 !important;
+#halo-form .tox-tbtn {
+    width: 34px !important;
+    height: 34px !important;
+    margin: 0 1px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 0 0 auto !important;
+}
+
+#halo-form .tox-tbtn svg {
+    width: 18px !important;
+    height: 18px !important;
+    display: block !important;
 }
