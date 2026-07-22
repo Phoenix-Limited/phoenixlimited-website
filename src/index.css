@@ -26,27 +26,39 @@ body {
     justify-content: flex-start !important;
 }
 
-#halo-form .tox-toolbar__group {
+#halo-form [class*="toolbar"] {
     display: flex !important;
-    align-items: center !important;
-    margin: 0 4px 0 0 !important;
-    padding: 0 !important;
-    border: none !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    gap: 4px !important;
 }
 
-#halo-form .tox-tbtn {
-    width: 34px !important;
-    height: 34px !important;
-    margin: 0 1px !important;
-    padding: 0 !important;
+#halo-form [class*="toolbar"] > div,
+#halo-form [class*="toolbar"] > span {
     display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 2px !important;
+}
+
+#halo-form [class*="toolbar"] button,
+#halo-form [class*="editor"] button {
+    all: revert !important;
+    display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    flex: 0 0 auto !important;
+    width: 32px !important;
+    height: 32px !important;
+    flex: 0 0 auto !important; /* This strictly prevents the buttons from expanding */
+    padding: 4px !important;
+    margin: 0 !important;
+    cursor: pointer !important;
 }
 
-#halo-form .tox-tbtn svg {
-    width: 18px !important;
-    height: 18px !important;
+#halo-form [class*="toolbar"] button svg,
+#halo-form [class*="editor"] button svg {
+    all: revert !important;
+    width: 16px !important;
+    height: 16px !important;
     display: block !important;
 }
