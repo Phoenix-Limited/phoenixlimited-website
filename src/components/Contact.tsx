@@ -77,7 +77,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-1">Call Us</h4>
-                                        <p className="text-lg">+1 (765) 246-7845</p>
+                                        <a href="tel:+17652467845" className="text-lg hover:text-brand-secondary transition-colors">+1 (765) 246-7845</a>
                                     </div>
                                 </div>
 
