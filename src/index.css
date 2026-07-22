@@ -20,12 +20,19 @@ body {
   --color-brand-accent: #3b82f6;
 }
 
-#halo-form .tox-toolbar__primary {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-start !important;
+/* Fix HaloPSA Rich Text Editor - Surgical Override */
+
+/* 1. Keep the icons small and inline */
+#halo-form [class*="toolbar"] svg {
+    width: 16px !important;
+    height: 16px !important;
+    max-width: 16px !important;
+    max-height: 16px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
 }
 
+/* 2. Group the layout properly so it doesn't spread across the screen */
 #halo-form [class*="toolbar"] {
     display: flex !important;
     flex-wrap: wrap !important;
@@ -33,32 +40,27 @@ body {
     gap: 4px !important;
 }
 
-#halo-form [class*="toolbar"] > div,
-#halo-form [class*="toolbar"] > span {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    align-items: center !important;
-    gap: 2px !important;
-}
-
-#halo-form [class*="toolbar"] button,
-#halo-form [class*="editor"] button {
-    all: revert !important;
+/* 3. Fix the buttons without causing 90s HTML borders */
+#halo-form [class*="toolbar"] button {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 32px !important;
+    width: auto !important;
+    min-width: 32px !important;
     height: 32px !important;
-    flex: 0 0 auto !important; /* This strictly prevents the buttons from expanding */
     padding: 4px !important;
     margin: 0 !important;
+    flex: 0 0 auto !important; /* Stops the stretching */
+
+    /* Force modern styling over default HTML */
+    border: none !important;
+    background: transparent !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
     cursor: pointer !important;
 }
 
-#halo-form [class*="toolbar"] button svg,
-#halo-form [class*="editor"] button svg {
-    all: revert !important;
-    width: 16px !important;
-    height: 16px !important;
-    display: block !important;
+/* 4. Restore a subtle hover effect so the editor feels interactive */
+#halo-form [class*="toolbar"] button:hover {
+    background-color: #f1f5f9 !important; /* Tailwind slate-100 */
 }
