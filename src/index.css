@@ -30,17 +30,32 @@ body {
     vertical-align: middle !important;
 }
 
-/* 2. Format individual buttons to be tight and compact */
+/* 2. Format individual buttons to be tight, compact, and strictly horizontal */
 #halo-form .fr-toolbar .fr-btn {
     background-color: transparent !important;
     border: none !important;
     padding: 6px !important;
     margin: 0 1px !important;
     border-radius: 4px !important;
+
+    /* Magic lines to fix the dropdown arrows */
     display: inline-flex !important;
+    flex-direction: row !important; /* Forces icon and arrow side-by-side */
+    flex-wrap: nowrap !important;   /* Absolutely prevents the arrow from dropping down */
     align-items: center !important;
     justify-content: center !important;
+
     cursor: pointer !important;
+}
+
+/* Fix dropdown text/arrows inside buttons to flow properly in the flex row */
+#halo-form .fr-toolbar .fr-btn span,
+#halo-form .fr-toolbar .fr-btn i {
+    display: inline-flex !important;
+    align-items: center !important;
+    font-size: 13px !important;
+    margin-left: 2px !important;
+    line-height: 1 !important;
 }
 
 /* 3. Add a subtle hover state for interactivity */
