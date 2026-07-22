@@ -98,7 +98,7 @@ const Contact = () => {
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        className="bg-white/5 backdrop-blur-lg border border-white/10 p-8 rounded-2xl"
+                        className="bg-white text-slate-900 p-8 rounded-2xl shadow-2xl border border-slate-100"
                     >
                         {/* HaloPSA Embedded Form Container */}
                         <div id="halo-form" />
