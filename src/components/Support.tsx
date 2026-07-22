@@ -36,7 +36,7 @@ const Support = () => {
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        href="https://support.phoenixlimited.net"
+                        href="https://support.phoenixlimited.net/portal/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-3 bg-white border-2 border-slate-200 hover:border-brand-secondary text-brand-primary px-8 py-4 rounded-xl font-bold transition-all w-full sm:w-auto group shadow-sm hover:shadow-md"
