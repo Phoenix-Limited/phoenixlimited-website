@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 html {
     scroll-behavior: smooth;
@@ -14,4 +12,10 @@ body {
 
 .font-sans {
     font-family: 'Inter', sans-serif;
+}
+
+@theme {
+  --color-brand-primary: #0f172a;
+  --color-brand-secondary: #f97316;
+  --color-brand-accent: #3b82f6;
 }

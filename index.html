@@ -5,20 +5,21 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phoenix Limited | Custom IT Solutions in Plainfield, IN</title>
-    <script>
-        function initFreshdesk() {
-            window.fdWidget.init({
-                token: "01KRFK2YP1NEE6PZ17KKXP7DAT",
-                host: "https://phoenixlimited.freshdesk.com",
-                widgetId: "01KRFK318AVDHR9PESY4V6SK0T"
-            });
-        }
-
-        function initialize(i,t){var e;i.getElementById(t)?initFreshdesk():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://phoenixlimited.freshdesk.com/webchat/js/widget.js",e.onload=initFreshdesk,i.head.appendChild(e))}function initiateCall(){initialize(document,"Freshdesk-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
-    </script>
 </head>
 <body>
-<div id="root"></div>
-<script type="module" src="/src/main.tsx"></script>
+    <!-- HaloPSA Chat Widget Container & Config -->
+    <div id="halo-chat"></div>
+    <script>
+      var haloChatConfig = {
+        chatServiceUrl: "https://phoenixlimited.halopsa.com/api",
+        configId: "a34f0eb2-5f48-44af-87f7-5ba3307339a9",
+        configKey: "7EB4801D-67F5-43A8-9C26-A591FC9B3703",
+      }
+    </script>
+    <script src="https://phoenixlimited.halopsa.com/chat/index.js"></script>
+
+    <!-- Vite Application Root -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>

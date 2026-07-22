@@ -17,7 +17,7 @@ const Navbar = () => {
                         <a href="#contact" className="hover:text-brand-secondary transition-colors">Contact</a>
                     </div>
                     <div className="flex items-center gap-4">
-                         <a href="https://support.phoenixlimited.net" target="_blank" rel="noopener noreferrer" className="hidden lg:block text-sm font-semibold text-slate-300 hover:text-white transition-colors">
+                        <a href="https://support.phoenixlimited.net/portal/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-slate-300 hover:text-white transition-colors">
                             Client Login
                         </a>
                         <a href="#contact" className="bg-brand-secondary hover:bg-orange-600 px-4 py-2 rounded-md text-sm font-semibold transition-all">
