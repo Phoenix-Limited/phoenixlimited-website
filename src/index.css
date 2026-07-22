@@ -20,51 +20,41 @@ body {
   --color-brand-accent: #3b82f6;
 }
 
-/* Fix HaloPSA Rich Text Editor - Layout & Spacing Override */
+/* Fix HaloPSA Rich Text Editor - Minimalist Reset */
 
-/* 1. Keep the icons small and inline */
+/* 1. Undo Tailwind's SVG reset (Shrinks the icons back down) */
 #halo-form [class*="toolbar"] svg {
     width: 16px !important;
     height: 16px !important;
-    max-width: 16px !important;
-    max-height: 16px !important;
-    display: inline-block !important;
+    display: inline-block !important; /* Tailwind makes these 'block' which breaks inline flow */
     vertical-align: middle !important;
 }
 
-/* 2. Force the toolbar AND all its invisible subgroups to cluster left */
-#halo-form [class*="toolbar"],
-#halo-form [class*="toolbar"] div,
-#halo-form [class*="toolbar"] span,
-#halo-form [class*="toolbar"] ul {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-start !important; /* Forces left alignment */
-    align-items: center !important;
-    flex-grow: 0 !important; /* Absolutely prevents containers from spreading */
-    gap: 4px !important; /* Adds a clean, uniform gap between items */
-}
-
-/* 3. Fix the buttons without causing 90s HTML borders */
+/* 2. Undo Tailwind's Button reset (Restores size without forcing Flexbox) */
 #halo-form [class*="toolbar"] button {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
     width: auto !important;
     min-width: 32px !important;
     height: 32px !important;
-    padding: 4px !important;
-    margin: 0 !important;
-    flex: 0 0 auto !important; /* Stops the individual buttons from stretching */
-
+    padding: 4px 6px !important;
+    margin: 0 2px !important;
+    display: inline-block !important; /* Allows native wrapping */
     border: none !important;
     background: transparent !important;
     border-radius: 4px !important;
-    box-shadow: none !important;
     cursor: pointer !important;
+    line-height: 1 !important;
+    text-align: center !important;
 }
 
-/* 4. Restore a subtle hover effect */
 #halo-form [class*="toolbar"] button:hover {
-    background-color: #f1f5f9 !important; /* Tailwind slate-100 */
+    background-color: #f1f5f9 !important;
+}
+
+/* 3. Undo Tailwind's List reset (Crucial if the editor uses ul/li for button groups) */
+#halo-form [class*="toolbar"] ul,
+#halo-form [class*="toolbar"] li {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline-block !important;
 }
