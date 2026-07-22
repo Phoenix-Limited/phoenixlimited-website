@@ -57,12 +57,28 @@ body {
     border: none !important;
 }
 
-/* 5. Ensure the main toolbar flows horizontally like the native layout */
+/* 5. Ensure the main toolbar flows horizontally on a single line */
 #halo-form .fr-toolbar {
     display: flex !important;
-    flex-wrap: wrap !important;
+    flex-wrap: nowrap !important; /* Forces all items onto one line */
+    overflow-x: auto !important;  /* Allows horizontal scrolling on small mobile screens */
     align-items: center !important;
-    padding: 4px !important;
+    padding: 4px 8px !important;
+
+    /* Hide scrollbars for a cleaner look while maintaining scroll functionality */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+#halo-form .fr-toolbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* 6. Hide Froala's forced line breaks */
+#halo-form .fr-toolbar .fr-newline,
+#halo-form .fr-toolbar .fr-separator {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
 }
 
 /* Fix dropdown text/arrows inside buttons */
