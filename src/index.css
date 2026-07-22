@@ -83,20 +83,15 @@ body {
     margin: 0 !important;
 }
 
-/* 5. Ensure the main toolbar flows horizontally on a single line */
+/* 5. Allow the main toolbar to wrap naturally on smaller screens */
 #halo-form .fr-toolbar {
     display: flex !important;
-    flex-wrap: nowrap !important; /* Forces all items onto one line */
-    overflow-x: auto !important;  /* Allows horizontal scrolling on small mobile screens */
+    flex-wrap: wrap !important; /* Reintroduced wrapping */
     align-items: center !important;
     padding: 4px 8px !important;
 
-    /* Hide scrollbars for a cleaner look while maintaining scroll functionality */
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-#halo-form .fr-toolbar::-webkit-scrollbar {
-    display: none;
+    /* Adds a little vertical breathing room when rows wrap */
+    gap: 4px !important;
 }
 
 /* 6. Hide Froala's forced line breaks */
